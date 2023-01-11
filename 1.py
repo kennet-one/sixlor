@@ -3,8 +3,8 @@ from ftplib import FTP_TLS
 def connect():
     ftp = FTP_TLS()
     ftp.debugging = 2
-    ftp.connect('31.6.210.49', 47)
-    ftp.login('SIXENSE', 'tact7777')
+    ftp.connect('адрес', порт)
+    ftp.login('логін', 'пароль')
     return ftp
 
 ftp = connect()
