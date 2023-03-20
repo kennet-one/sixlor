@@ -13,7 +13,7 @@ def connect():
 
 ftp = connect()
 
-smtplib = smtplib.SMTP_SSL('mail.sixense.pl', 465)
+smtplib = smtplib.SMTP_SSL('mail', 465)
 dir_lor = ['/LORA/3D1041818007100','/LORA/3D1041818007101','/LORA/3D1041818007102','/LORA/3D1041818007103','/LORA/3D1041818007104','/LORA/3D1041818007105']
 
 warn = 0
