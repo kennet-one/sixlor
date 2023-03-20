@@ -26,10 +26,10 @@ meg = ""
 def milo (message) :
     msg = MIMEMultipart()
 
-    password = "Ala@#$3113"
-    msg['From'] = "niedziala@sixense.pl"
-    msg['To'] = "kennet1one@gmail.com"
-    msg['Subject'] = "LoRa"
+     password = "пароль"
+    msg['From'] = "від"
+    msg['To'] = "кому"
+    msg['Subject'] = "not cat"
 
     msg.attach(MIMEText(message, 'plain'))
 
